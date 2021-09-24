@@ -8,9 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Character extends Model
 {
     use HasFactory;
-    
-    public function charectes()
+    public function characters()
     {
         return $this->hasMany(Character::class);
     }
+  
 }

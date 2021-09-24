@@ -18,9 +18,10 @@ class CreateCharactersTable extends Migration
             $table->string('name');
             $table->integer('year_creation');
             $table->string('designer');
-            $table->string('affiliate name');
+            $table->string('affiliate_name');
             $table->timestamps();
         });
+        
     }
 
     /**
