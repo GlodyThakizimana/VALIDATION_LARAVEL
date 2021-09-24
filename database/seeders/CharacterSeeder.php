@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class CharacterSeeder extends Seeder
 {
@@ -16,7 +17,7 @@ class CharacterSeeder extends Seeder
         DB::table('characters')->insert([
             [
             'name' => 'Pikachu',
-            'year_creation' => '1993',
+            'year_creation' => 1993,
             'affiliate_name' => 'Pokemon',
             'designer' => 'Ken Sugimori',
             ]
