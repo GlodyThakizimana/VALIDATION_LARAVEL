@@ -14,7 +14,7 @@ class DesignerSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('characters')->insert([
+        DB::table('designers')->insert([
             [
             'name' => 'Ken Sugimori',
             'birth' => 1993,
